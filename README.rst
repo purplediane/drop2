@@ -63,7 +63,7 @@ Each of these fixes briefly explained:
 - builtins: remove ``from builtins import ...`` lines
 - future: remove ``from __future__ import ...`` lines (based on the same fixer in ``2to3``)
 - open: remove ``from io import open`` line
-- past: remove ``from past.* import ...`` lines.
+- past: warn about ``from past.* import ...`` lines
 - standard_library: remove ``from future import standard_library`` and ``standard_library.install_aliases()``
 
 To run just particular fixes, use the ``-f`` argument.
